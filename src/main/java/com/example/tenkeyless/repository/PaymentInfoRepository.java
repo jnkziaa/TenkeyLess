@@ -1,2 +1,7 @@
-package com.example.tenkeyless.repository;public class PaymentInfoRepository {
+package com.example.tenkeyless.repository;
+
+import com.example.tenkeyless.entity.PaymentInfo;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PaymentInfoRepository extends JpaRepository<PaymentInfo, String> {
 }

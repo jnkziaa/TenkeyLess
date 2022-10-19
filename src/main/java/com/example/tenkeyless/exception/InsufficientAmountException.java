@@ -1,2 +1,7 @@
-package com.example.tenkeyless.exception;public class InsufficientAmountException {
+package com.example.tenkeyless.exception;
+
+public class InsufficientAmountException extends RuntimeException{
+    public InsufficientAmountException(String message) {
+        super(message);
+    }
 }
